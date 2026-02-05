@@ -24,3 +24,6 @@ body {
     color: green;
     font-weight: bold;
 }
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
