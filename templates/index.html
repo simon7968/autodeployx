@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AutoDeployX</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            background: linear-gradient(135deg, #1d2671, #c33764);
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+        }
+
+        .card {
+            background: #ffffff;
+            color: #333;
+            width: 420px;
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+            text-align: center;
+        }
+
+        .card h1 {
+            color: #1d2671;
+            margin-bottom: 10px;
+        }
+
+        .badge {
+            display: inline-block;
+            background: #28a745;
+            color: white;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 14px;
+            margin: 10px 0;
+        }
+
+        .info {
+            margin-top: 20px;
+            font-size: 15px;
+            line-height: 1.6;
+        }
+
+        .btn {
+            margin-top: 25px;
+            padding: 12px 20px;
+            background: linear-gradient(90deg, #1d2671, #c33764);
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 15px;
+            transition: transform 0.2s;
+        }
+
+        .btn:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            margin-top: 20px;
+            font-size: 13px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <h1>🚀 AutoDeployX</h1>
+    <div class="badge">Application Running</div>
+
+    <div class="info">
+        <p><strong>Tech Stack:</strong></p>
+        <p>Python • Docker • GitHub Actions • Cloud</p>
+
+        <p><strong>CI/CD Status:</strong></p>
+        <p>Latest build & deployment successful ✅</p>
+    </div>
+
+    <button class="btn">Trigger New Deployment</button>
+
+    <footer>
+        Cloud-Based Automated Deployment Platform
+    </footer>
+</div>
+
+</body>
+</html>
